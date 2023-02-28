@@ -3,13 +3,13 @@
 # Device
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/TeamWin/android_device_oneplus_cheeseburger_dumpling.git -b android-12.1"
+export DT_LINK="https://github.com/winter-bear/android_device_infinix_X6815_twrp -b android-12.1"
 
 export DEVICE="cheeseburger_dumpling"
-export OEM="oneplus"
-export TARGET="recoveryimage"
+export OEM="alldocube"
+export TARGET="bootimage"
 
-export OUTPUT="recovery.img"
+export OUTPUT="twrp-boot.img"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
